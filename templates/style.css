@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(207, 70, 97);
+    position: fixed;
+}
+
+#mainBox{
+    height: 60%;
+    /* height: 80%; */
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    /* box-shadow: 2px 2px; */
+    /* background: linear-gradient(to right, rgb(238, 98, 98),rgb(92, 92, 226)); */
+}
+
+#mainBox:hover{
+    background-color:  rgb(231, 196, 202);
+    /* color: rgb(231, 127, 149); */
+}
+
+#greet{
+    width: 100%;
+    height: 25%;
+    color: crimson;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greet h3{
+    font-size: 40px;
+}
+
+#login{
+    width: 100%;
+    height: 75%;
+    /* background-color:chartreuse; */
+    
+}
+
+.fields{
+    width: 100%;
+    height: 25%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fields:hover{
+    background-color: #fff;
+}
+
+#login button{
+    margin-top: 20px;
+    width: 100%;
+    height: 25%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    background-color:crimson;
+    border: none;
+}
+
+#login button:hover{
+    background-color: rgb(139, 8, 34);
+    color: azure;
+}
